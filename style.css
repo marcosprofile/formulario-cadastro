@@ -147,9 +147,6 @@ textarea:focus {
   color: var(--danger);
 }
 
-.box-input {
-  margin-bottom: var(--margin-xl);
-}
 
 .optional-box {
   display: inline-block;
@@ -166,6 +163,7 @@ textarea:focus {
 }
 
 .box-input {
+  margin-bottom: var(--margin-xl);
   display: flex;
   flex-direction: column;
   gap: var(--margin-xs);
@@ -196,7 +194,7 @@ textarea:focus {
 }
 
 /* Responsivo */
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
   textarea {
     min-height: 80px;
   }
